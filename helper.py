@@ -60,6 +60,7 @@ while count <7:
 
 	x = input("Did you find your ans (y/n): ")
 	if x == "y":
+		print("Congratulations!")
 		break
 
 	n = input("How many green letter did you find: ")
@@ -82,5 +83,3 @@ while count <7:
 		print("Sorry your desire word isn't in our database.")
 		break
 	count +=1
-
-print("Congratulations!")
